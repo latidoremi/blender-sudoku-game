@@ -539,6 +539,8 @@ def unregister():
     del bpy.types.Scene.Sudoku_play_board
     del bpy.types.Scene.Sudoku_active
     
+    del bpy.types.Scene.Sudoku_solver_board
+    
     del bpy.types.Scene.Sudiku_level
     del bpy.types.Scene.Sudoku_context
 
