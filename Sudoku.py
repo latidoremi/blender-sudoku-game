@@ -55,17 +55,6 @@ def solver(board):
 
 
 
-
-bl_info = {
-    "name": "Sudoku",
-    "author": "Latidoremi",
-    "version": (1, 0),
-    "blender": (3, 0, 0),
-    "location": "N Panel > Sudoku",
-    "description": "Sudoku Game",
-    "category": "Games",
-}
-
 # ##### BEGIN GPL LICENSE BLOCK #####
 #
 #  This program is free software; you can redistribute it and/or
@@ -83,6 +72,16 @@ bl_info = {
 #  Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 #
 # ##### END GPL LICENSE BLOCK #####
+
+bl_info = {
+    "name": "Sudoku",
+    "author": "Latidoremi",
+    "version": (1, 0),
+    "blender": (3, 0, 0),
+    "location": "N Panel > Sudoku",
+    "description": "Sudoku Game",
+    "category": "Games",
+}
 
 import bpy
 import numpy as np
